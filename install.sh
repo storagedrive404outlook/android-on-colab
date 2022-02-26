@@ -10,4 +10,4 @@ sudo apt install qemu-system-x86 qemu qemu-system curl -y > /dev/null 2>&1
 echo Downloading Windows Disk...
 curl -L -o android.7z https://altushost-swe.dl.sourceforge.net/project/osboxes/v/vb/1-A-d/Lineage-OS-CynagenMod/14.1/R5/64bit.7z
 7z e android.7z
-echo Rename The file
+echo Rename The file in 64 file Lineage CM 14.1-R5 (64bit).vdi to android.vdi
