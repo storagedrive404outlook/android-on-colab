@@ -1,4 +1,4 @@
-echo "Windows 8 x86 Lite On Google Colab"
+echo "Android x86 Lite On Google Colab"
 echo "Note: Use Right-Click Or Ctrl+C To Copy"
 echo "Please Keep Colab Tab Open, Maximum Time 12h"
 echo Script by Storagedrive404outlook
