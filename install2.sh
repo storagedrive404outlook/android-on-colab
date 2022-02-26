@@ -1,6 +1,4 @@
 echo "Windows 8 x86 Lite On Google Colab"
-echo Your VNC IP Address:
-
 echo "Note: Use Right-Click Or Ctrl+C To Copy"
 echo "Please Keep Colab Tab Open, Maximum Time 12h"
 echo Script by Storagedrive404outlook
