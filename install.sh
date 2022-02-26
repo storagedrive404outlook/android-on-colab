@@ -8,7 +8,7 @@ sudo apt update -y > /dev/null 2>&1
 echo "Installing QEMU (2-3m)..."
 sudo apt install qemu-system-x86 qemu qemu-system curl -y > /dev/null 2>&1
 echo Downloading Android Disk...
-curl -L -o android.7z https://deac-ams.dl.sourceforge.net/project/osboxes/v/vm/1-A-dr/8.1/8.1-r6/64bit.7z
+curl -L -o android.7z https://nav.dl.sourceforge.net/project/osboxes/v/vm/1-A-dr/9.0/R2/andri-9.0-r2-VM-32bit.7z
 7z e android.7z
 echo Your VNC IP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
