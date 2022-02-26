@@ -4,4 +4,4 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo "Note: Use Right-Click Or Ctrl+C To Copy"
 echo "Please Keep Colab Tab Open, Maximum Time 12h"
 echo Script by Storagedrive404outlook
-sudo qemu-system-x86_64 -vnc :0 -hda /content/sample_data/Lineage CM 14.1-R5 (64bit).vdi  -smp cores=2  -m 8192M -machine usb=on -device usb-tablet > /dev/null 2>&1
+sudo qemu-system-x86_64 -vnc :0 -hda /content/64bit/android  -smp cores=2  -m 8192M -machine usb=on -device usb-tablet > /dev/null 2>&1
